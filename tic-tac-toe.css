@@ -1,9 +1,18 @@
-h1{
-	color: blue;
-	font-size: 60px;
+
+.container-fluid{
+	background:url('https://pbs.twimg.com/profile_images/1758244841/25414_340_400x400.jpg')no-repeat;
 }
+ .text-center{
+ 	border: 3px groove white;
+ 	background-color: black;
+ }
+ #header-text1{
+ 	color: white;
 
-
+ }
+#header-text2{
+	color: white;
+}
 #board{
 	max-width: 640px;
 	min-width: 320px;
@@ -11,17 +20,41 @@ h1{
 	margin: auto;
 
 }
-.square{
+.board-row img{
+	/* ('file:///Users/Porscha/Desktop/DigitalCrafts/4-17immersive/Unit%203/Tic-Tac-Toe/images/britney-icon.jpg')background-image:url('britney-icon.jpg');  */
+}
+.square-britney{
 	background-color: #FFF;
 	border:  2px solid #000;
 	outline: none;
 	width: 30%;
 	padding: 30px 0px;
 	font-size: 80px;
+	max-width: 640px;
+	min-width: 320px;
+	/* float: none; */
+	/* margin: auto; */
+}
+.square-cici{
+	background-color: #FFF;
+	border:  2px solid #000;
+	outline: none;
+	width: 30%;
+	padding: 30px 0px;
+	font-size: 80px;
+	max-width: 640px;
+	min-width: 320px;
+	/* float: none; */
+	/* margin: auto; */
 }
 
-.square:hover{
-	background-color: yellow;
+
+.square-britney:hover{
+	/* background-color: yellow; */
+	background-image:url('file:///Users/Porscha/Desktop/DigitalCrafts/4-17immersive/Unit%203/Tic-Tac-Toe/images/britney-icon.jpg');
+}
+.square-cici:hover{
+	background-image:url();
 }
 
 .winning-square{

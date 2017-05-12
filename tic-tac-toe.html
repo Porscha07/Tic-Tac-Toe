@@ -11,33 +11,40 @@
 
 <body>
 <!-- Where bootstrap begins -->
-<div class="container">
+<div class="container-fluid">
 	<div class="row">
 		<div class="col-sm-12 text-center">
-			<h1> TIC TAC TOE</h1>
+			<div id= "header-text1">
+				<marquee behavior="scroll" direction="left"><h2> Battle of the Pop Stars~ 2000's Edition~Tic Tac Toe</h2></marquee>
+			</div>
+				<div id="header-text2">
+					<marquee behavior="scroll" direction="right"><h3>Britney Spears VS Christina Aguilera</h3></marquee>
+				</div>
 		</div>
+	</div>
 		<div class="row">
 			<div id="message" class="col-sm-12 text-center">
 			<!-- any message to the user will go here -->
 			</div>
-		<div class="row">
-		<!-- the main board wrapper (will contain rows) -->
+		</div>
+			<div class="row">
+			<!-- the main board wrapper (will contain rows) -->
 		<div id="board" class="col-sm-12">
-		<div class="board-row">
-			<button id="A1" class="square">A1</button>
-			<button id="B1" class="square">B1</button>
-			<button id="C1" class="square">C1</button>
-		</div>
-		<div class="board-row">
-			<button id="A2" class="square">A2</button>
-			<button id="B2" class="square">B2</button>
-			<button id="C2" class="square">C2</button>
-		</div>
-		<div class="board-row">
-			<button id="A3" class="square">A3</button>
-			<button id="B3" class="square">B3</button>
-			<button id="C3" class="square">C3</button>
-		</div>
+			<div class="board-row">
+				<button id="A1" class="square-britney">A1</button>
+				<button id="B1" class="square-cici">B1</button>
+				<button id="C1" class="square-britney">C1</button>
+			</div>
+			<div class="board-row">
+				<button id="A2" class="square-cici">A2</button>
+				<button id="B2" class="square-cici">B2</button>
+				<button id="C2" class="square-britney">C2</button>
+			</div>
+			<div class="board-row">
+				<button id="A3" class="square-cici">A3</button>
+				<button id="B3" class="square-britney">B3</button>
+				<button id="C3" class="square-cici">C3</button>
+			</div>
 		</div>
 
 	</div>
