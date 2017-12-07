@@ -25,8 +25,8 @@ for (let i = 0; i < squares.length; i++){
     // console.log(squares[i]);
     squares[i].addEventListener('click', function(e){
         markSquare(this);
-        // <!-- this is gna be the button tag -->
-        // console.log("User clicked on a square");
+        //  this is going to be the button tag
+        //console.log("User clicked on a square");
     })
 }
 
@@ -75,12 +75,13 @@ function markSquare(currentSquare){
         }
     }
     messageElement.innerHTML = squareResult;
+    //squareResult appears above the board as a message to the user.
 }
 
 function checkWin(currentPlayerSquares, whoJustWent){
-    // Outter Loop(winning combo)
+    // Outer Loop(winning combo)
     for (let i = 0; i < winningCombos.length; i++){
-        // Inner Loop (Squares inside a winning Combo)
+        // Inner Loop (Squares inside a winning combo)
         var squareCount = 0;
         for (let j = 0; j < innerListLength; j++){
             var winningSquare = winningCombos[i][j];
@@ -98,7 +99,7 @@ function checkWin(currentPlayerSquares, whoJustWent){
 function computerMove(){
     // find a random square
     // see if it's empty
-    // if it is, send it to Marksqaure
+    // if it is, send it to Marksquare
     // if it's not, keep looking
     var tempCombos = [];
     var chosenSquare = 0;
@@ -165,5 +166,3 @@ function gameOver(whoJustWent, winningCombo){
     }
     overGame = true;
 }
-
-//remove tranform function

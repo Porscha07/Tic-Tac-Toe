@@ -1,9 +1,14 @@
-* {
+body {
     background-color:#1F2C40;
 }
 h1 {
     color: #A07216;
     font-size: 60px;
+}
+
+#message{
+     color: #A07216;
+     font-size: 30px;
 }
 
 #board {
@@ -31,7 +36,7 @@ h1 {
 }
 .winning-sqaure {
     background-color: #0326A6;
-}
+} 
 
 #menu {
     margin-top: 10px;
